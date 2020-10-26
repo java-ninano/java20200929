@@ -3,7 +3,7 @@ package chap04.textbook;
 public class IfElseIfExample {
 	public static void main(String[] args) {
 
-		int score = 75;
+		int score = 62;
 
 		if (score >= 90) {
 			System.out.println("점수가 100~90 입니다.");

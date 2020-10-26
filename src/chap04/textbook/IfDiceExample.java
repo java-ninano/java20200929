@@ -2,7 +2,8 @@ package chap04.textbook;
 
 public class IfDiceExample {
 	public static void main(String[] args) {
-		int num = (int) (Math.random() * 6) + 1; // 0*6 <= random *6 <1*6 = 0.0~5.99999 +1
+		int num = (int) (Math.random() * 45) + 1; // 0*6 <= random *6 <1*6 = 0.0~5.99999 +1
+	    System.out.println(num);
 
 		if (num == 1) {
 			System.out.println("1번이 나왔습니다.");
