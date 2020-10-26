@@ -1,0 +1,18 @@
+package chap08.lecture.casting;
+
+public class MyApp {
+public static void main(String[] args) {
+	MyClass o1 = new MyClass();
+	MyInterface i1 = o1;
+	i1.method1();
+	
+	
+	
+	MyClass o2 = (MyClass) i1;
+	o2.method2(); //강제 형 변환 ---> casting 실패할수도 있음.
+	
+	System.out.println(i1 instanceof MyInterface);
+	System.out.println(i1 instanceof MyClass);
+	
+	}
+}

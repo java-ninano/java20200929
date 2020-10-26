@@ -1,0 +1,11 @@
+package chap07.lecture.s070803;
+
+public class PhoneExmaple {
+public static void main(String[] args) {
+	SmartPhone smartPhone = new SmartPhone("홍길동");
+		smartPhone.turnOn();
+		smartPhone.internetSearch();
+		smartPhone.turnOff();
+	
+}
+}
