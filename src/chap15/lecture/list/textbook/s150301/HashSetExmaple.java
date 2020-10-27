@@ -26,11 +26,11 @@ public static void main(String[] args) {
 	System.out.println("총 객체수: "+ set.size());
 	
 	iterator =set.iterator();
-	while(iterator.hashNext()) {
+	while(iterator.hasNext()) {
 		String element = iterator.next();
 		System.out.println("\t" + element);
 	}
 	set.clear();
-	if(set.isEmpty()) {System.out.println("비어있음");
+	if(set.isEmpty()) {System.out.println("비어있음");}
 }
 }

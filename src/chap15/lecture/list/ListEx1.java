@@ -24,6 +24,7 @@ public static void main(String[] args) {
 	list.set(3,"jsp");
 	list.set(3, "java");
 	
+	
 	// 삭제
 	list.remove(2);
 	System.out.println(list.get(2));
